@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap');
+:root {
+    --bg1: black;
+    --bg2: #222124;
+    --bg3: white;
+    --bg4: #272727;
+    --fg1: white;
+    --fg2: #FDFDFD;
+
+}
+html {
+    background: var(--bg1);
+    color: var(--fg1);
+    background-color: 'black';
+    color: 'white';
+    font-family: 'Roboto', sans-serif;
+    z-index: 10;
+}
+body {
+    background-color: var(--bg1);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;                
+    color: var(--fg1);
+    font-family: 'Hahmlet', serif;
+    padding: 10px 5px;
+    vertical-align: middle;
+    top: 50%;
+}
+
+
+.examAreaHalf {
+    height: 200px;
+    width: 1000px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#examhalfdiagram {
+    display: inline-block;
+}
+
+.examArea div {
+    background-color: var(--bg1);
+}
+input, textarea {
+    font-family: 'Cambria', sans-serif;
+    font-size: 36px;
+    padding: 2px;
+    background-color: var(--bg3);
+
+}
+button {
+    font-family: 'Hahmlet', serif;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+#nameInput {
+    max-width: 800px;
+}
+.formlabel {
+    font-size: 40px;
+}
+.option {
+    width: 600px;
+    background: gray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    padding-top: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    vertical-align: sub;
+    height: 50px;
+    font-size: 20px;
+} .testinformation {
+    text-align: left;
+}
+.examInput {
+    font-size: 20px;
+    background-color: var(--bg4);
+    color: var(--fg2);
+    width: 400px;
+
+}
+textarea {
+    height:200px;
+    resize: none;
+    margin-left: 50px;
+}
+#examAreaAnswer {
+    height: 250px;
+}
+.examAreaAnswerLabel {
+    font-size: 20px;
+    padding: 5px;
+}
+#subandcontbtn {
+    padding: 5px;
+
+}
+.submitancontarea {
+    padding: 10px;
+}
+.examAreaAnswerHalf {
+    float: left;
+    border: 10px solid black;
+}
+#examhalfdiagram {
+    height: 300px;
+    overflow-y: auto;
+}
+#examhalfdiagram img {
+    max-width: 100%;
+}
+.questionHeader {
+    display: inline-block;
+}
+#questionHeader1 {
+    float: left;
+}
+#questionHeader2 {
+    float: right;
+    background-color: var(--bg1);
+}
+.testinformation {
+    
+    
+    height: 250px;
+    width: 400px;
+    
+    margin-right: 20px;
+}
+input, textarea {
+    border: none;
+    padding: 10px;
+}
+input {
+    text-align: center;
+}
+.ti {
+    z-index: 1000;
+    top: 30%;
+    left: 30%;
+    padding: 10px;
+    width: 400px;
+    height: 350px;
+    background-color: var(--bg2);
+    position: absolute;
+}
+#ti-2 {
+    padding: 10px;
+}
+.submitancontarea button {
+    width: 200px;
+    
+}.tinav {
+    bottom: 50px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<meta charset="utf=8">
+
+<html>
+    <head>
+        <link rel="stylesheet" href="exam.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <div class="questionHeader" id="questionHeader1">
+                <h2>Baseline Test Question <span id="questionnumber">1</span></h2>
+            </div>
+            <div class="questionHeader" id="questionHeader2">
+                <button id="info">ℹ️</button>
+            </div>
+        </div>
+        <div class="examArea">
+            <div class="examAreaHalf" id="examhalfdiagram">
+                <img src="diagrams/q1.jpg" id="img">
+            </div>
+            <div class="examAreaHalf" id="examAreaAnswer">
+                <div class="workings">
+                    <div class="examAreaAnswerHalf">
+                        <div class="examAreaAnswerLabel">
+                            Workings
+                        </div>
+                        <textarea class="examInput" id="workingsInput"></textarea>
+                    </div>
+                </div>
+                <div class="examAreaAnswerHalf">
+                    <div class="examAreaAnswerLabel">
+                        Answer
+                    </div>
+                    <input class="examInput" id="answerInput"></input>
+
+                    <div class="submitancontarea">
+                        <button id="prevbtn">Previous</button>
+                        <button id="subandcontbtn">Next</button>
+                    </div>
+                </div><p></p>
+
+            </div>
+        </div>
+
+        <div class="ti" id="ti">
+            <div class="testinformation" id="ti-1">
+                <ul>        
+                    <li>Show your working for all your questions. You will not get full marks if you do not show working out for questions, excluding questions 3c and 8a.</li>                
+                    <li>This test is 40 minutes long</li>                
+                    <li>This test is out of <strong>35</strong>.</li>                
+                    <li>You <strong>may</strong> use a calculator in this exam.</li>                
+                    <li>There are 7 bonus points, which will be marked as <strong>BONUS POINTS</strong></li>             
+                    <li>Attempt to answer all questions.</li>                
+                </ul>
+            </div>
+            <div class="testinformation" id="ti-2">
+                When submitting your answer:
+                <ul>
+                    <li>For main operations
+                        <ul>
+                            <li>Addition (+)</li>
+                            <li>Subtraction (-)</li>
+                            <li>Multiplication (*)</li>
+                            <li>Division (/)</li>
+                        </ul>
+                    </li>                
+                    <li>Fractions – frac(numerator, denominator)</li>              
+                    <li>Exponentials -  exp(base, power)</li>                
+                    <li>Just write Pi as Pi</li>                
+                    <li>Vectors – vector(x component, y component)</li>
+                
+            </ul>
+            </div><br>
+            <div class="tinav">
+                <button onclick="changeTI(0)">PREV</button>
+                <button onclick="changeTI(1)">NEXT</button>
+            </div>
+            
+        </div>
+                
+            </ul>
+        </div>
+        
+        
+    </body>
+    <script src="exam.js"></script>
+</html>
