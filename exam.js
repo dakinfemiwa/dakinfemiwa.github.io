@@ -80,6 +80,9 @@ function download(filename, data) {
 }
 
 function nextQuestion() {
+    if (questions[qI2] == "8a" || questions[qI2] == "8b") {
+        subandcontbtn.textContent = "Submit";
+    } 
     if (questions[qI2] == "8c") {
         return;
     }
@@ -121,6 +124,7 @@ function nextQuestion() {
     
 }
 function previousQuestion() {
+    subandcontbtn.textContent = "Next";
     //console.log(uAA2);
     addQuestionData();
     console.log(uAA2);  
